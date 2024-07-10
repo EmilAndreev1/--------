@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персонално портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9491a9f01f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="image-container">
+                    <img src="logo (2).png" class="logo" alt="Logo">
+                </div>
+                <ul>
+                    <li><a href="#header">Начало</a></li>
+                    <li><a href="#about">За мен</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><span>Предприемач</span></p>
+                <h1>Емил Андреев,<br> собственик на <span>General Assistment</span></h1>
+            </div>
+        </div>
+    </div>
+                                               
+    <!-- about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_4780.JPG" alt="About Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">За Мен</h1>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                        It has roots in a piece of classical Latin literature from 45 BC,
+                        making it over 2000 years old. Richard McClintock,
+                        a Latin professor at Hampden-Sydney College in Virginia,
+                        looked up one of the more obscure Latin words, consectetur,
+                        from a Lorem Ipsum passage, and going through the cites of 
+                        the word in classical literature, discovered the undoubtable source.
+                        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+                        (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                        This book is a treatise on the theory of ethics, very popular during the Renaissance.
+                        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                        Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                        are also reproduced in their exact original form, accompanied by English versions
+                        from the 1914 translation by H. Rackham.</p>
+
+                           <div class="tab-titles">
+                               <p class="tab-links active-link" onclick="opentab('Skills')">Умения</p>
+                               <p class="tab-links" onclick="opentab('Expirience')">Опит</p>
+                               <p class="tab-links" onclick="opentab('Education')">Образование</p>
+                            </div>
+                            
+                            <div class="tab-contents active-tab" id="Skills">
+                                <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS apps</li>
+                            </ul>
+                            </div>
+                            <div class="tab-contents" id="Expirience">
+                                <ul>
+                                <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                                <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC.</li>
+                                <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital ltd.</li>
+                                <li><span>2016-2017</span><br>Internship at ekart eCommerce</li>
+                            </ul>
+                            </div>
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                                <li><span>2016</span><br>MBA from MIT Bangalore<li>
+                                <li><span>2014</span><br>BBA from IMS Bangalore</li>
+                            </ul>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services --> 
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Услуги</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Уеб Дизайн</h2>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                            <a href="#">Научи Повече</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Дизайн</h2>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                            <a href="#">Научи Повече</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Дизайн на приложения</h2>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                            <a href="#">Научи повече</a>
+                    </div>
+
+                </div>
+            
+        </div>
+     </div>
+
+     <!-- portfolio -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Портфолио</h1>
+            <div class="work-list">
+              
+                <div class="work">
+                <img src="tablet.png">
+                <div class="layer">
+                    <h3>Направа на дизайни</h3>
+                    <p>Макетирам всеки един продукт от бъдеща колекция
+                    на дигитален таблет, предназначен за това. Уеб дизайнът ми позволява
+                    да достигна до възможно най-добрата версия на моите продукти</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="website develop.png">
+                <div class="layer">
+                    <h3>Поддръжка на уебсайта</h3>
+                    <p>Създавам и поддържам сайтовете си изцяло сам.
+                    Харесва ми да създавам неща сам без чужда намеса</p>
+                          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="snimki.png">
+                <div class="layer">
+                    <h3>Снимачен Процес</h3>
+                    <p>Аз присъствам и контролирам всеки един
+                    от снимачните процеси, независимо дали са включени
+                    продукти или заснемаме видео съдържание</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+             </div>
+           </div>
+          <a href="#" class="btn">Виж Още</a>
+        </div>
+      </div>
+     
+      <!-- contact -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Свържи се</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> emil.andreev2303@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0898259900</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Твоето име" required>
+                        <input type="email" name="email" placeholder="Твоят Имейл" required>
+                        <textarea name="Message" rows="6" placeholder="Съобщение..."></textarea>
+                        <button type="submit" class="btn">Изпращане</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Emil. Made with <i class="fa-solid fa-heart"></i> by Emil Andreev</p>
+        </div>
+       </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");  
+        }
+
+    </script>
+</body>
+</html>
